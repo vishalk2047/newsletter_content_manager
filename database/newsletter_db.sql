@@ -66,13 +66,9 @@ CREATE TABLE articles (
 );
 
 -- ---------------------------------------------------------
--- Seed data
--- ---------------------------------------------------------
 
--- Default login -> username: admin , password: admin123
--- (password_hash below is SHA-256 hex digest of "admin123")
 INSERT INTO users (username, password_hash, full_name, role) VALUES
-('admin', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 'Administrator', 'ADMIN');
+('admin', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa22809f74c720a9', 'Administrator', 'ADMIN');
 
 INSERT INTO categories (name, description) VALUES
 ('Achievements', 'Student and faculty achievements'),
