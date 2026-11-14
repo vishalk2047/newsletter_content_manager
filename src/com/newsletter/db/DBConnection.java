@@ -4,16 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Central place to obtain a JDBC connection to the MySQL database.
- * Update DB_URL / DB_USER / DB_PASSWORD to match your local MySQL setup.
- */
 public class DBConnection {
 
     private static final String DB_URL =
             "jdbc:mysql://localhost:3306/newsletter_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "MYSQL_password"; // <-- change to your MySQL password
+    private static final String DB_PASSWORD = "MYSQL_password"; 
 
     private static Connection connection;
 
