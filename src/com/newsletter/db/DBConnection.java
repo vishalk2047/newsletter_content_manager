@@ -13,7 +13,7 @@ public class DBConnection {
     private static final String DB_URL =
             "jdbc:mysql://localhost:3306/newsletter_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "vishalkhatrihu"; // <-- change to your MySQL password
+    private static final String DB_PASSWORD = "MYSQL_password"; // <-- change to your MySQL password
 
     private static Connection connection;
 
